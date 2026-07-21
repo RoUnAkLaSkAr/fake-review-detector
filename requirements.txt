@@ -1,10 +1,9 @@
 streamlit
 pandas
 numpy
-nltk
 scikit-learn
-matplotlib
-seaborn
-wordcloud
-textblob
+nltk
 joblib
+textblob
+wordcloud
+matplotlib
