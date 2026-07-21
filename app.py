@@ -2,10 +2,14 @@ import streamlit as st
 import joblib
 import re
 import string
+import nltk
+
+nltk.download('stopwords', quiet=True)
+nltk.download('wordnet', quiet=True)
+nltk.download('omw-1.4', quiet=True)
 
 from nltk.corpus import stopwords
 from nltk.stem import WordNetLemmatizer
-
 model = joblib.load(
     'fake_review_model.pkl'
 )
