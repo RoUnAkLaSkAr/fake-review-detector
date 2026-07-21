@@ -1,4 +1,3 @@
-```python
 import streamlit as st
 import joblib
 import nltk
@@ -350,4 +349,4 @@ if "history" in st.session_state:
             st.session_state.history
         )
     )
-```
+
